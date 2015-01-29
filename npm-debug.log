@@ -1,0 +1,219 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json webpack-example@0.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/chadreynolds/SourceCode/github.com/seerey/react_test',
+6 verbose install   [ 'css-loader',
+6 verbose install     'jsx-loader',
+6 verbose install     'style-loader',
+6 verbose install     'url-loader',
+6 verbose install     'webpack',
+6 verbose install     'webpack-dev-server' ] ]
+7 info preinstall webpack-example@0.0.0
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'css-loader@^0.9.0', null ]
+10 verbose cache add name=undefined spec="css-loader@^0.9.0" args=["css-loader@^0.9.0",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'css-loader@^0.9.0',
+11 verbose parsed url   path: 'css-loader@^0.9.0',
+11 verbose parsed url   href: 'css-loader@^0.9.0' }
+12 verbose cache add [ 'jsx-loader@^0.12.2', null ]
+13 verbose cache add name=undefined spec="jsx-loader@^0.12.2" args=["jsx-loader@^0.12.2",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'jsx-loader@^0.12.2',
+14 verbose parsed url   path: 'jsx-loader@^0.12.2',
+14 verbose parsed url   href: 'jsx-loader@^0.12.2' }
+15 verbose cache add [ 'style-loader@^0.8.2', null ]
+16 verbose cache add name=undefined spec="style-loader@^0.8.2" args=["style-loader@^0.8.2",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'style-loader@^0.8.2',
+17 verbose parsed url   path: 'style-loader@^0.8.2',
+17 verbose parsed url   href: 'style-loader@^0.8.2' }
+18 verbose cache add [ 'url-loader@^0.5.5', null ]
+19 verbose cache add name=undefined spec="url-loader@^0.5.5" args=["url-loader@^0.5.5",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'url-loader@^0.5.5',
+20 verbose parsed url   path: 'url-loader@^0.5.5',
+20 verbose parsed url   href: 'url-loader@^0.5.5' }
+21 verbose cache add [ 'webpack@^1.4.13', null ]
+22 verbose cache add name=undefined spec="webpack@^1.4.13" args=["webpack@^1.4.13",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'webpack@^1.4.13',
+23 verbose parsed url   path: 'webpack@^1.4.13',
+23 verbose parsed url   href: 'webpack@^1.4.13' }
+24 verbose cache add name="css-loader" spec="^0.9.0" args=["css-loader","^0.9.0"]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: '^0.9.0',
+25 verbose parsed url   path: '^0.9.0',
+25 verbose parsed url   href: '^0.9.0' }
+26 verbose addNamed [ 'css-loader', '^0.9.0' ]
+27 verbose addNamed [ null, '>=0.9.0-0 <0.10.0-0' ]
+28 verbose cache add name="jsx-loader" spec="^0.12.2" args=["jsx-loader","^0.12.2"]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: '^0.12.2',
+29 verbose parsed url   path: '^0.12.2',
+29 verbose parsed url   href: '^0.12.2' }
+30 verbose addNamed [ 'jsx-loader', '^0.12.2' ]
+31 verbose addNamed [ null, '>=0.12.2-0 <0.13.0-0' ]
+32 verbose cache add name="style-loader" spec="^0.8.2" args=["style-loader","^0.8.2"]
+33 verbose parsed url { protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: '^0.8.2',
+33 verbose parsed url   path: '^0.8.2',
+33 verbose parsed url   href: '^0.8.2' }
+34 verbose addNamed [ 'style-loader', '^0.8.2' ]
+35 verbose addNamed [ null, '>=0.8.2-0 <0.9.0-0' ]
+36 verbose cache add name="url-loader" spec="^0.5.5" args=["url-loader","^0.5.5"]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: '^0.5.5',
+37 verbose parsed url   path: '^0.5.5',
+37 verbose parsed url   href: '^0.5.5' }
+38 verbose addNamed [ 'url-loader', '^0.5.5' ]
+39 verbose addNamed [ null, '>=0.5.5-0 <0.6.0-0' ]
+40 verbose cache add [ 'webpack-dev-server@^1.6.6', null ]
+41 verbose cache add name=undefined spec="webpack-dev-server@^1.6.6" args=["webpack-dev-server@^1.6.6",null]
+42 verbose parsed url { protocol: null,
+42 verbose parsed url   slashes: null,
+42 verbose parsed url   auth: null,
+42 verbose parsed url   host: null,
+42 verbose parsed url   port: null,
+42 verbose parsed url   hostname: null,
+42 verbose parsed url   hash: null,
+42 verbose parsed url   search: null,
+42 verbose parsed url   query: null,
+42 verbose parsed url   pathname: 'webpack-dev-server@^1.6.6',
+42 verbose parsed url   path: 'webpack-dev-server@^1.6.6',
+42 verbose parsed url   href: 'webpack-dev-server@^1.6.6' }
+43 verbose cache add name="webpack" spec="^1.4.13" args=["webpack","^1.4.13"]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: '^1.4.13',
+44 verbose parsed url   path: '^1.4.13',
+44 verbose parsed url   href: '^1.4.13' }
+45 verbose addNamed [ 'webpack', '^1.4.13' ]
+46 verbose addNamed [ null, '>=1.4.13-0 <2.0.0-0' ]
+47 silly lockFile 70922e05-css-loader-0-9-0 css-loader@^0.9.0
+48 verbose lock css-loader@^0.9.0 /Users/chadreynolds/.npm/70922e05-css-loader-0-9-0.lock
+49 silly lockFile 388a6ae4-jsx-loader-0-12-2 jsx-loader@^0.12.2
+50 verbose lock jsx-loader@^0.12.2 /Users/chadreynolds/.npm/388a6ae4-jsx-loader-0-12-2.lock
+51 silly lockFile 69efe6c5-style-loader-0-8-2 style-loader@^0.8.2
+52 verbose lock style-loader@^0.8.2 /Users/chadreynolds/.npm/69efe6c5-style-loader-0-8-2.lock
+53 silly lockFile ab284c51-url-loader-0-5-5 url-loader@^0.5.5
+54 verbose lock url-loader@^0.5.5 /Users/chadreynolds/.npm/ab284c51-url-loader-0-5-5.lock
+55 silly lockFile c7d52c13-webpack-1-4-13 webpack@^1.4.13
+56 verbose lock webpack@^1.4.13 /Users/chadreynolds/.npm/c7d52c13-webpack-1-4-13.lock
+57 verbose cache add name="webpack-dev-server" spec="^1.6.6" args=["webpack-dev-server","^1.6.6"]
+58 verbose parsed url { protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: '^1.6.6',
+58 verbose parsed url   path: '^1.6.6',
+58 verbose parsed url   href: '^1.6.6' }
+59 verbose addNamed [ 'webpack-dev-server', '^1.6.6' ]
+60 verbose addNamed [ null, '>=1.6.6-0 <2.0.0-0' ]
+61 silly lockFile ebe7a25f-webpack-dev-server-1-6-6 webpack-dev-server@^1.6.6
+62 verbose lock webpack-dev-server@^1.6.6 /Users/chadreynolds/.npm/ebe7a25f-webpack-dev-server-1-6-6.lock
+63 silly lockFile 70922e05-css-loader-0-9-0 css-loader@^0.9.0
+64 error Error: Attempt to unlock css-loader@^0.9.0, which hasn't been locked
+64 error     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:44:11)
+64 error     at cb (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:32:5)
+64 error     at /usr/local/lib/node_modules/npm/lib/cache/add-named.js:41:20
+64 error     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:30:7
+64 error     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+64 error     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+64 error     at Object.oncomplete (fs.js:108:15)
+65 error If you need help, you may report this *entire* log,
+65 error including the npm and node versions, at:
+65 error     <http://github.com/npm/npm/issues>
+66 error System Darwin 13.4.0
+67 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+68 error cwd /Users/chadreynolds/SourceCode/github.com/seerey/react_test
+69 error node -v v0.10.35
+70 error npm -v 1.4.28
+71 verbose exit [ 1, true ]
