@@ -1,10 +1,12 @@
 var InnerHome = require('./InnerHome.js');
 var React = require('react');
+//Start home
 
 var Component = React.createClass({
   render: function () {
+  	var myname = "test";
     return (
-      <h1>Testing</h1>
+      <h1>My name is {this.props.name}</h1> 
     );
   }
 });

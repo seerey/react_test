@@ -3,6 +3,6 @@
     src: url('./font.woff') format('woff');
 }
 body {
-    font-family: 'test';
-    background-image: url(./bg.png);
+    /*font-family: 'test';*/
+    /*background-image: url(./bg.png);*/
 }
